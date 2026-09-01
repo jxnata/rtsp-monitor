@@ -1,0 +1,7 @@
+node_modules/
+dist/
+data/open-rtsp-ports.txt
+data/cameras.json
+data/streams/
+*.log
+.DS_Store

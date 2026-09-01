@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RTSP Monitor</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.17/dist/hls.min.js" defer></script>
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <h1>RTSP Monitor</h1>
+        <p class="subtitle">Câmeras RTSP sem autenticação em ranges autorizados</p>
+      </div>
+      <div class="header-actions">
+        <button id="scanBtn" type="button" class="btn primary">Scan network</button>
+        <button id="stopBtn" type="button" class="btn ghost hidden">Stop</button>
+        <button id="freshBtn" type="button" class="btn ghost hidden" title="Ignora checkpoint e recomeça do zero">Fresh scan</button>
+      </div>
+    </header>
+
+    <section id="progressPanel" class="progress-panel hidden" aria-live="polite">
+      <div class="progress-header">
+        <strong id="progressTitle">Scanning…</strong>
+        <span id="progressMessage" class="muted"></span>
+      </div>
+      <div class="bar">
+        <div id="progressBar" class="bar-fill"></div>
+      </div>
+      <div class="stats">
+        <div><span class="label">IPs totais</span><span id="statTotal">0</span></div>
+        <div><span class="label">Verificados</span><span id="statChecked">0</span></div>
+        <div><span class="label">Porta 554</span><span id="statOpen">0</span></div>
+        <div><span class="label">RTSP open</span><span id="statRtsp">0</span></div>
+        <div><span class="label">Auth required</span><span id="statAuth">0</span></div>
+        <div><span class="label">Erros</span><span id="statErrors">0</span></div>
+      </div>
+    </section>
+
+    <section class="toolbar">
+      <div class="filters">
+        <button type="button" class="chip active" data-filter="all">Todas</button>
+        <button type="button" class="chip" data-filter="favorite">★ Favoritas</button>
+      </div>
+      <span id="cameraCount" class="muted"></span>
+    </section>
+
+    <main id="cameraGrid" class="grid"></main>
+    <p id="emptyState" class="empty">Nenhuma câmera ainda. Clique em <strong>Scan network</strong>.</p>
+
+    <div id="playerModal" class="modal hidden" role="dialog" aria-modal="true">
+      <div class="modal-backdrop" data-close></div>
+      <div class="modal-card">
+        <div class="modal-head">
+          <h2 id="playerTitle">Stream</h2>
+          <button type="button" class="btn ghost" data-close aria-label="Fechar">✕</button>
+        </div>
+        <video id="playerVideo" controls autoplay muted playsinline></video>
+        <p id="playerStatus" class="muted"></p>
+      </div>
+    </div>
+  </body>
+</html>
