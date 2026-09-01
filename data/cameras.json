@@ -1,0 +1,377 @@
+[
+  {
+    "ip": "100.1.194.238",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://100.1.194.238:554/h264/ch1/main/av_stream",
+    "publicMethods": "OPTIONS, DESCRIBE, SETUP, PLAY, RECORD, TEARDOWN, ANNOUNCE, SET_PARAMETER, GET_PARAMETER",
+    "contentType": "application/sdp",
+    "tracks": [
+      {
+        "control": "rtsp://100.1.194.238:554/h264/ch1/main/av_stream/trackID=0",
+        "codec": "H264",
+        "resolution": "1920x1080",
+        "mediaType": "video"
+      },
+      {
+        "control": "rtsp://100.1.194.238:554/h264/ch1/main/av_stream/trackID=1",
+        "codec": "PCMA",
+        "mediaType": "audio"
+      }
+    ],
+    "sdp": "v=0\r\no=- 1654556257 1654556257 IN IP4 100.1.194.238\r\ns=-\r\ne=NONE\nc=IN IP4 100.1.194.238\r\nt=0 0\r\na=control:rtsp://100.1.194.238:554/h264/ch1/main/av_stream\r\nm=video 0 RTP/AVP 96\r\na=control:trackID=0\r\na=rtpmap:96 H264/90000\r\na=Media_header:MEDIAINFO=494D4B48010100000400010000000000000000000000000000000000000000000000000000000000;\r\nb=AS:5000\r\na=x-dimensions:1920,1080\r\na=framerate:15\r\na=bitrate:4096\r\na=fmtp:96 packetization-mode=1;profile-level-id=420029;sprop-parameter-sets=Z2QAKq2EAQwgCGEAQwgCGEAQwgCEO1A8ARPyoA==,aO48sA==\r\nm=audio 0 RTP/AVP 8\r\na=control:trackID=1\r\na=rtpmap:8 PCMA/8000\r\na=x-onvif-track:audiotrack_token\r\nb=AS:50\r\na=recvonly\r\n",
+    "lastChecked": "2026-09-01T18:49:57.997Z",
+    "favorite": true
+  },
+  {
+    "ip": "100.4.197.212",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://100.4.197.212:554/h264/ch1/main/av_stream",
+    "publicMethods": "OPTIONS, DESCRIBE, SETUP, PLAY, RECORD, TEARDOWN, ANNOUNCE, SET_PARAMETER, GET_PARAMETER",
+    "contentType": "application/sdp",
+    "tracks": [
+      {
+        "control": "rtsp://100.4.197.212:554/h264/ch1/main/av_stream/trackID=0",
+        "codec": "H264",
+        "resolution": "1920x1080",
+        "mediaType": "video"
+      },
+      {
+        "control": "rtsp://100.4.197.212:554/h264/ch1/main/av_stream/trackID=1",
+        "codec": "PCMA",
+        "mediaType": "audio"
+      }
+    ],
+    "sdp": "v=0\r\no=- 1096367789 1096367789 IN IP4 100.4.197.212\r\ns=-\r\ne=NONE\nc=IN IP4 100.4.197.212\r\nt=0 0\r\na=control:rtsp://100.4.197.212:554/h264/ch1/main/av_stream\r\nm=video 0 RTP/AVP 96\r\na=control:trackID=0\r\na=rtpmap:96 H264/90000\r\na=Media_header:MEDIAINFO=494D4B48010100000400010000000000000000000000000000000000000000000000000000000000;\r\nb=AS:5000\r\na=x-dimensions:1920,1080\r\na=framerate:15\r\na=bitrate:4096\r\na=fmtp:96 packetization-mode=1;profile-level-id=420029;sprop-parameter-sets=Z2QAKq2EAQwgCGEAQwgCGEAQwgCEO1A8ARPyoA==,aO48sA==\r\nm=audio 0 RTP/AVP 8\r\na=control:trackID=1\r\na=rtpmap:8 PCMA/8000\r\na=x-onvif-track:audiotrack_token\r\nb=AS:50\r\na=recvonly\r\n",
+    "lastChecked": "2026-09-01T18:52:16.518Z",
+    "favorite": true
+  },
+  {
+    "ip": "100.7.48.45",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://100.7.48.45:554/h264/ch1/main/av_stream",
+    "publicMethods": "OPTIONS, DESCRIBE, SETUP, PLAY, RECORD, TEARDOWN, ANNOUNCE, SET_PARAMETER, GET_PARAMETER",
+    "contentType": "application/sdp",
+    "tracks": [
+      {
+        "control": "rtsp://100.7.48.45:554/h264/ch1/main/av_stream/trackID=0",
+        "codec": "H264",
+        "resolution": "1920x1080",
+        "mediaType": "video"
+      },
+      {
+        "control": "rtsp://100.7.48.45:554/h264/ch1/main/av_stream/trackID=1",
+        "codec": "PCMA",
+        "mediaType": "audio"
+      }
+    ],
+    "sdp": "v=0\r\no=- 1122429740 1122429740 IN IP4 100.7.48.45\r\ns=-\r\ne=NONE\nc=IN IP4 100.7.48.45\r\nt=0 0\r\na=control:rtsp://100.7.48.45:554/h264/ch1/main/av_stream\r\nm=video 0 RTP/AVP 96\r\na=control:trackID=0\r\na=rtpmap:96 H264/90000\r\na=Media_header:MEDIAINFO=494D4B48010100000400010000000000000000000000000000000000000000000000000000000000;\r\nb=AS:5000\r\na=x-dimensions:1920,1080\r\na=framerate:15\r\na=bitrate:6144\r\na=fmtp:96 packetization-mode=1;profile-level-id=420029;sprop-parameter-sets=Z2QAKq2EAQwgCGEAQwgCGEAQwgCEO1A8ARPyoA==,aO48sA==\r\nm=audio 0 RTP/AVP 8\r\na=control:trackID=1\r\na=rtpmap:8 PCMA/8000\r\na=x-onvif-track:audiotrack_token\r\nb=AS:50\r\na=recvonly\r\n",
+    "lastChecked": "2026-09-01T18:52:40.566Z",
+    "favorite": true
+  },
+  {
+    "ip": "143.107.185.240",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://143.107.185.240:554/stream1",
+    "publicMethods": "OPTIONS,DESCRIBE,SETUP,TEARDOWN,PLAY,SET_PARAMETER,GET_PARAMETER",
+    "contentType": "application/sdp",
+    "contentBase": "rtsp://143.107.185.240:554/stream1",
+    "tracks": [
+      {
+        "control": "rtsp://143.107.185.240:554/stream1/trackID=0",
+        "codec": "H264",
+        "resolution": "1920x1080",
+        "mediaType": "video"
+      }
+    ],
+    "sdp": "v=0\r\no=CameraStreaming 3132335948 1236907222000 IN IP4 143.107.185.240\r\ns=10\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=control:*\r\nm=video 0 RTP/AVP 96\r\na=control:trackID=0\r\na=rtpmap:96 H264/90000\r\na=fmtp:96 packetization-mode=1;profile-level-id=4D402A;sprop-parameter-sets=Z01AKo2NQDwBE/LgLcBAQFAAAD6AAA6mDoYAP/wAAO5rK7y40MAH/4AAHc1ld5cK,aO44gA==\r\na=framesize:96 1920-1080\r\n",
+    "lastChecked": "2026-09-01T20:16:03.030Z",
+    "favorite": true
+  },
+  {
+    "ip": "152.241.69.249",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://152.241.69.249:554/cam/realmonitor?channel=1&subtype=0",
+    "publicMethods": "OPTIONS DESCRIBE SETUP PLAY RECORD PAUSE GET_PARAMETER SET_PARAMETER TEARDOWN",
+    "contentType": "application/sdp",
+    "contentBase": "rtsp://152.241.69.249:554/cam/realmonitor?channel=1&subtype=0",
+    "tracks": [
+      {
+        "control": "rtsp://152.241.69.249:554/cam/realmonitor?channel=1&subtype=0/trackID=0",
+        "codec": "H264",
+        "mediaType": "video"
+      }
+    ],
+    "sdp": "v=0\r\no=- 3331435948 1116907222000 IN IP4 192.168.15.176\r\ns=Session\r\nc=IN IP4 192.168.15.176\r\nt=0 0\r\na=range:npt=now-\r\na=control:*\r\nm=video 0 RTP/AVP 96\r\na=rtpmap:96 H264/90000\r\na=control:trackID=0\r\na=fmtp:96 profile-level-id=000042;packetization-mode=1;sprop-parameter-sets=Z0LgH9oBQBbE,aM4wpIA=\r\n",
+    "lastChecked": "2026-09-01T20:53:23.725Z",
+    "favorite": true
+  },
+  {
+    "ip": "152.244.70.165",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://152.244.70.165:554/stream1",
+    "publicMethods": "OPTIONS, DESCRIBE, SETUP, TEARDOWN, PLAY, PAUSE, GET_PARAMETER, SET_PARAMETER",
+    "contentType": "application/sdp",
+    "contentBase": "rtsp://192.168.15.29/h264/",
+    "tracks": [
+      {
+        "control": "rtsp://192.168.15.29/h264/track1",
+        "codec": "H264",
+        "mediaType": "video"
+      },
+      {
+        "control": "rtsp://192.168.15.29/h264/track2",
+        "codec": "vnd.onvif.metadata",
+        "mediaType": "application"
+      }
+    ],
+    "sdp": "v=0\r\no=- 1272063093983224 1 IN IP4 0.0.0.0\r\ns=Session streamed by \"Pelco Streaming Server\"\r\ni=h264\r\nt=0 0\r\na=tool:Pelco Streaming Server 2016-01-20\r\na=type:broadcast\r\na=control:*\r\na=range:npt=0-\r\na=x-qt-text-nam:Session streamed by \"Pelco Streaming Server\"\r\na=x-qt-text-inf:h264\r\nm=video 0 RTP/AVP 97\r\nc=IN IP4 0.0.0.0\r\na=rtpmap:97 H264/90000\r\na=fmtp:97 packetization-mode=1;profile-level-id=640020; sprop-parameter-sets=Z2QAIKw0yAUAef8BbgICAoAAAfQAAHUwdDAAq+AAAmJaXeXGhgAVfAAATEtLvLhQAA==,aO44MA==\r\na=control:track1\r\na=cliprect:0,0,960,1280\r\na=framerate:30.000000\r\na=x-bufferdelay:0\r\nm=application 0 RTP/AVP 107\r\na=rtpmap:107 vnd.onvif.metadata/90000/\r\na=control:track2\r\n\r\n",
+    "lastChecked": "2026-09-01T20:57:06.229Z",
+    "favorite": true
+  },
+  {
+    "ip": "100.0.144.74",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://100.0.144.74:554/",
+    "publicMethods": "OPTIONS, DESCRIBE, PLAY, PAUSE, SETUP, TEARDOWN, SET_PARAMETER, GET_PARAMETER",
+    "contentType": "application/sdp",
+    "contentBase": "rtsp://100.0.144.74:554/",
+    "tracks": [
+      {
+        "control": "rtsp://100.0.144.74:554/trackID=1",
+        "codec": "H264",
+        "resolution": "1280x720",
+        "mediaType": "video"
+      }
+    ],
+    "sdp": "v=0\r\no=- 1788274595604299 1788274595604299 IN IP4 192.168.1.143\r\ns=Media Presentation\r\ne=NONE\r\nb=AS:5050\r\nt=0 0\r\na=control:rtsp://100.0.144.74:554/\r\nm=video 0 RTP/AVP 96\r\nc=IN IP4 0.0.0.0\r\nb=AS:5000\r\na=recvonly\r\na=x-dimensions:1280,720\r\na=control:rtsp://100.0.144.74:554/trackID=1\r\na=rtpmap:96 H264/90000\r\na=fmtp:96 profile-level-id=420029; packetization-mode=1; sprop-parameter-sets=Z00AH5pkAoAt/zUBAQFAAAD6AAATiAE=,aO48gA==\r\na=Media_header:MEDIAINFO=494D4B48010100000400010000000000000000000000000000000000000000000000000000000000;\r\na=appversion:1.0\r\n",
+    "lastChecked": "2026-09-01T18:49:06.782Z"
+  },
+  {
+    "ip": "100.2.224.247",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://100.2.224.247:554/h264/ch1/main/av_stream",
+    "publicMethods": "OPTIONS, DESCRIBE, SETUP, PLAY, RECORD, TEARDOWN, ANNOUNCE, SET_PARAMETER, GET_PARAMETER",
+    "contentType": "application/sdp",
+    "tracks": [
+      {
+        "control": "rtsp://100.2.224.247:554/h264/ch1/main/av_stream/trackID=0",
+        "codec": "H265",
+        "resolution": "3840x2144",
+        "mediaType": "video"
+      }
+    ],
+    "sdp": "v=0\r\no=- 1753743271 1753743271 IN IP4 100.2.224.247\r\ns=-\r\ne=NONE\nc=IN IP4 100.2.224.247\r\nt=0 0\r\na=control:rtsp://100.2.224.247:554/h264/ch1/main/av_stream\r\nm=video 0 RTP/AVP 96\r\nc=IN IP4 0.0.0.0\r\nb=AS:5000\r\na=control:trackID=0\r\na=rtpmap:96 H265/90000\r\na=x-dimensions:3840,2144\r\na=framerate:15\r\na=bitrate:4096\r\na=fmtp:96 profile-space=0;profile-id=1;tier-flag=0;level-id=153;nterop-constraints=000000000000;sprop-vps=QAEMAf//AUAAAAMAAAMAAAMAAAMAmawJ;sprop-sps=QgEBAUAAAAMAAAMAAAMAAAMAmaAB4CACGH+Wu5Gwa5VB;sprop-pps=RAHAc8BMkA==\r\na=recvonly\r\n",
+    "lastChecked": "2026-09-01T18:51:36.674Z"
+  },
+  {
+    "ip": "100.8.201.195",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://100.8.201.195:554/h264/ch1/main/av_stream",
+    "publicMethods": "OPTIONS, DESCRIBE, SETUP, PLAY, RECORD, TEARDOWN, ANNOUNCE, SET_PARAMETER, GET_PARAMETER",
+    "contentType": "application/sdp",
+    "tracks": [
+      {
+        "control": "rtsp://100.8.201.195:554/h264/ch1/main/av_stream/trackID=0",
+        "codec": "H264",
+        "resolution": "2592x1944",
+        "mediaType": "video"
+      },
+      {
+        "control": "rtsp://100.8.201.195:554/h264/ch1/main/av_stream/trackID=1",
+        "codec": "PCMA",
+        "mediaType": "audio"
+      }
+    ],
+    "sdp": "v=0\r\no=- 3655689941 3655689941 IN IP4 100.8.201.195\r\nc=IN IP4 100.8.201.195\r\nt=0 0\r\nm=video 0 RTP/AVP 96\r\na=control:trackID=0\r\na=rtpmap:96 H264/90000\r\na=Media_header:MEDIAINFO=494D4B48010100000400010000000000000000000000000000000000000000000000000000000000;\r\na=x-dimensions:2592,1944\r\na=framerate:15\r\na=bitrate:6000\r\na=fmtp:96 packetization-mode=1;profile-level-id=420029;sprop-parameter-sets=Z2QAMq2EAQwgCGEAQwgCGEAQwgCEK1AUQHr8s3AQEBAg,aO48sA==\r\nm=audio 0 RTP/AVP 8\r\na=control:trackID=1\r\na=rtpmap:8 PCMA/8000\r\na=x-onvif-track:audiotrack_token\r\nb=AS:50\r\na=recvonly\r\n",
+    "lastChecked": "2026-09-01T18:53:22.034Z"
+  },
+  {
+    "ip": "100.11.38.147",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://100.11.38.147:554/h264/ch1/main/av_stream",
+    "publicMethods": "OPTIONS, DESCRIBE, SETUP, PLAY, RECORD, TEARDOWN, ANNOUNCE, SET_PARAMETER, GET_PARAMETER",
+    "contentType": "application/sdp",
+    "tracks": [
+      {
+        "control": "rtsp://100.11.38.147:554/h264/ch1/main/av_stream/trackID=0",
+        "codec": "H265",
+        "resolution": "3840x2160",
+        "mediaType": "video"
+      },
+      {
+        "control": "rtsp://100.11.38.147:554/h264/ch1/main/av_stream/trackID=1",
+        "codec": "PCMA",
+        "mediaType": "audio"
+      }
+    ],
+    "sdp": "v=0\r\no=- 2225926634 2225926634 IN IP4 100.11.38.147\r\ns=-\r\ne=NONE\nc=IN IP4 100.11.38.147\r\nt=0 0\r\na=control:rtsp://100.11.38.147:554/h264/ch1/main/av_stream\r\nm=video 0 RTP/AVP 96\r\nc=IN IP4 0.0.0.0\r\nb=AS:5000\r\na=control:trackID=0\r\na=rtpmap:96 H265/90000\r\na=x-dimensions:3840,2160\r\na=framerate:10\r\na=bitrate:6000\r\na=fmtp:96 profile-space=0;profile-id=1;tier-flag=0;level-id=153;nterop-constraints=B00000000000;sprop-vps=QAEMAf//AWAAAAMAsAAAAwAAAwCZrAk=;sprop-sps=QgEBAWAAAAMAsAAAAwAAAwCZoAHgIAIcWNrkky9NwEBAQCA=;sprop-pps=RAHA8vA8kA==\r\nm=audio 0 RTP/AVP 8\r\na=control:trackID=1\r\na=rtpmap:8 PCMA/8000\r\na=x-onvif-track:audiotrack_token\r\nb=AS:50\r\na=recvonly\r\n",
+    "lastChecked": "2026-09-01T18:59:29.179Z"
+  },
+  {
+    "ip": "143.107.185.54",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://143.107.185.54:554/",
+    "publicMethods": "OPTIONS, DESCRIBE, SETUP, TEARDOWN, PLAY, PAUSE, ANNOUNCE, RECORD, SET_PARAMETER, GET_PARAMETER",
+    "contentType": "application/sdp",
+    "contentBase": "rtsp://143.107.185.54:554//",
+    "tracks": [
+      {
+        "control": "rtsp://143.107.185.54:554//trackID=0",
+        "codec": "H265",
+        "mediaType": "video"
+      },
+      {
+        "control": "rtsp://143.107.185.54:554//trackID=1",
+        "codec": "mpeg4-generic",
+        "mediaType": "audio"
+      }
+    ],
+    "sdp": "v=0\r\no=- 0 0 IN IP4 0.0.0.0\r\ns=Streamed by ZLMediaKit(git hash:ba8296038,branch:high_low_compat_alphaosd_newweb_dvpro,build time:Oct  8 2024 14:40:06)\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=range:npt=now-\r\na=control:*\r\nm=video 0 RTP/AVP 96\r\na=fmtp:96 sprop-vps=QAEMAf//AWAAAAMAAAMAAAMAAAMAHrwMAAAPoAADqYFA; sprop-sps=QgEBAWAAAAMAAAMAAAMAAAMAHqADwIARB8uW+STIj+XPRIA=; sprop-pps=RAHgLKwJkA==\r\na=rtpmap:96 H265/90000\r\na=control:trackID=0\r\nm=audio 0 RTP/AVP 98\r\na=fmtp:98 streamtype=5;profile-level-id=1;mode=AAC-hbr;sizelength=13;indexlength=3;indexdeltalength=3;config=1190\r\na=rtpmap:98 mpeg4-generic/48000/2\r\na=control:trackID=1\r\n",
+    "lastChecked": "2026-09-01T20:15:59.678Z"
+  },
+  {
+    "ip": "143.107.185.55",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://143.107.185.55:554/",
+    "publicMethods": "OPTIONS, DESCRIBE, SETUP, TEARDOWN, PLAY, PAUSE, ANNOUNCE, RECORD, SET_PARAMETER, GET_PARAMETER",
+    "contentType": "application/sdp",
+    "contentBase": "rtsp://143.107.185.55:554//",
+    "tracks": [
+      {
+        "control": "rtsp://143.107.185.55:554//trackID=0",
+        "codec": "H265",
+        "mediaType": "video"
+      },
+      {
+        "control": "rtsp://143.107.185.55:554//trackID=1",
+        "codec": "mpeg4-generic",
+        "mediaType": "audio"
+      }
+    ],
+    "sdp": "v=0\r\no=- 0 0 IN IP4 0.0.0.0\r\ns=Streamed by ZLMediaKit(git hash:ba8296038,branch:high_low_compat_alphaosd_newweb_dvpro,build time:Oct  8 2024 14:40:06)\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=range:npt=now-\r\na=control:*\r\nm=video 0 RTP/AVP 96\r\na=fmtp:96 sprop-vps=QAEMAf//AWAAAAMAAAMAAAMAAAMAHrwMAAAPoAADqYFA; sprop-sps=QgEBAWAAAAMAAAMAAAMAAAMAHqADwIARB8uW+STIj+XPRIA=; sprop-pps=RAHgLKwJkA==\r\na=rtpmap:96 H265/90000\r\na=control:trackID=0\r\nm=audio 0 RTP/AVP 98\r\na=fmtp:98 streamtype=5;profile-level-id=1;mode=AAC-hbr;sizelength=13;indexlength=3;indexdeltalength=3;config=1190\r\na=rtpmap:98 mpeg4-generic/48000/2\r\na=control:trackID=1\r\n",
+    "lastChecked": "2026-09-01T20:16:00.003Z"
+  },
+  {
+    "ip": "143.107.185.56",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://143.107.185.56:554/",
+    "publicMethods": "OPTIONS, DESCRIBE, SETUP, TEARDOWN, PLAY, PAUSE, ANNOUNCE, RECORD, SET_PARAMETER, GET_PARAMETER",
+    "contentType": "application/sdp",
+    "contentBase": "rtsp://143.107.185.56:554//",
+    "tracks": [
+      {
+        "control": "rtsp://143.107.185.56:554//trackID=0",
+        "codec": "H265",
+        "mediaType": "video"
+      },
+      {
+        "control": "rtsp://143.107.185.56:554//trackID=1",
+        "codec": "mpeg4-generic",
+        "mediaType": "audio"
+      }
+    ],
+    "sdp": "v=0\r\no=- 0 0 IN IP4 0.0.0.0\r\ns=Streamed by ZLMediaKit(git hash:ba8296038,branch:high_low_compat_alphaosd_newweb_dvpro,build time:Oct  8 2024 14:40:06)\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=range:npt=now-\r\na=control:*\r\nm=video 0 RTP/AVP 96\r\na=fmtp:96 sprop-vps=QAEMAf//AWAAAAMAAAMAAAMAAAMAHrwMAAAPoAADqYFA; sprop-sps=QgEBAWAAAAMAAAMAAAMAAAMAHqADwIARB8uW+STIj+XPRIA=; sprop-pps=RAHgLKwJkA==\r\na=rtpmap:96 H265/90000\r\na=control:trackID=0\r\nm=audio 0 RTP/AVP 98\r\na=fmtp:98 streamtype=5;profile-level-id=1;mode=AAC-hbr;sizelength=13;indexlength=3;indexdeltalength=3;config=1190\r\na=rtpmap:98 mpeg4-generic/48000/2\r\na=control:trackID=1\r\n",
+    "lastChecked": "2026-09-01T20:15:59.525Z"
+  },
+  {
+    "ip": "143.107.185.57",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://143.107.185.57:554/",
+    "publicMethods": "OPTIONS, DESCRIBE, SETUP, TEARDOWN, PLAY, PAUSE, ANNOUNCE, RECORD, SET_PARAMETER, GET_PARAMETER",
+    "contentType": "application/sdp",
+    "contentBase": "rtsp://143.107.185.57:554//",
+    "tracks": [
+      {
+        "control": "rtsp://143.107.185.57:554//trackID=0",
+        "codec": "H265",
+        "mediaType": "video"
+      },
+      {
+        "control": "rtsp://143.107.185.57:554//trackID=1",
+        "codec": "mpeg4-generic",
+        "mediaType": "audio"
+      }
+    ],
+    "sdp": "v=0\r\no=- 0 0 IN IP4 0.0.0.0\r\ns=Streamed by ZLMediaKit(git hash:ba8296038,branch:high_low_compat_alphaosd_newweb_dvpro,build time:Oct  8 2024 14:40:06)\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=range:npt=now-\r\na=control:*\r\nm=video 0 RTP/AVP 96\r\na=fmtp:96 sprop-vps=QAEMAf//AWAAAAMAAAMAAAMAAAMAHrwMAAAPoAADqYFA; sprop-sps=QgEBAWAAAAMAAAMAAAMAAAMAHqADwIARB8uW+STIj+XPRIA=; sprop-pps=RAHgLKwJkA==\r\na=rtpmap:96 H265/90000\r\na=control:trackID=0\r\nm=audio 0 RTP/AVP 98\r\na=fmtp:98 streamtype=5;profile-level-id=1;mode=AAC-hbr;sizelength=13;indexlength=3;indexdeltalength=3;config=1190\r\na=rtpmap:98 mpeg4-generic/48000/2\r\na=control:trackID=1\r\n",
+    "lastChecked": "2026-09-01T20:15:59.835Z"
+  },
+  {
+    "ip": "152.243.115.232",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://152.243.115.232:554/",
+    "publicMethods": "OPTIONS, DESCRIBE, SETUP, TEARDOWN, GET_PARAMETER, SET_PARAMETER, PLAY, PAUSE",
+    "tracks": [],
+    "sdp": "",
+    "error": "RTSP SETUP timeout",
+    "lastChecked": "2026-09-01T20:53:48.150Z"
+  },
+  {
+    "ip": "152.245.27.42",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://152.245.27.42:554/h264/ch1/main/av_stream",
+    "publicMethods": "OPTIONS, DESCRIBE, SETUP, TEARDOWN, GET_PARAMETER, PLAY, PAUSE",
+    "contentType": "application/sdp",
+    "contentBase": "rtsp://152.245.27.42:554/h264/ch1/main/av_stream",
+    "tracks": [
+      {
+        "control": "rtsp://152.245.27.42:554/h264/ch1/main/av_stream/trackID=1",
+        "codec": "H265",
+        "mediaType": "video"
+      }
+    ],
+    "sdp": "v=0\r\no=- 3899026506 1 IN IP4 192.168.15.17\r\ns=Media Server\r\nt=0 0\r\na=control:*\r\na=range:npt=now-\r\nm=video 0 RTP/AVP 96\r\nc=IN IP4 0.0.0.0\r\na=control:trackID=1\r\na=rtpmap:96 H265/90000 \r\n",
+    "lastChecked": "2026-09-01T20:58:21.331Z"
+  },
+  {
+    "ip": "152.245.33.158",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://152.245.33.158:554/",
+    "publicMethods": "OPTIONS,DESCRIBE,SETUP,TEARDOWN,PLAY,SET_PARAMETER,GET_PARAMETER",
+    "contentType": "application/sdp",
+    "contentBase": "rtsp://152.245.33.158:554/",
+    "tracks": [
+      {
+        "control": "rtsp://152.245.33.158:554/trackID=0",
+        "codec": "H264",
+        "resolution": "1280x720",
+        "mediaType": "video"
+      },
+      {
+        "control": "rtsp://152.245.33.158:554/trackID=1",
+        "codec": "PCMA",
+        "mediaType": "audio"
+      }
+    ],
+    "sdp": "v=0\r\no=StreamingServer 3331435948 1116907222000 IN IP4 192.168.10.184\r\ns=10\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=control:*\r\nm=video 0 RTP/AVP 96\r\na=control:trackID=0\r\na=rtpmap:96 H264/90000\r\na=fmtp:96 packetization-mode=1;profile-level-id=4D001F;sprop-parameter-sets=Z00AH5WoFAFuQA==,aO48gA==\r\na=framesize:96 1280-720\r\nm=audio 0 RTP/AVP 8\r\na=control:trackID=1\r\na=rtpmap:8 PCMA/8000/1\r\na=ptime:20\r\na=fmtp:8 packetization-mode=1\r\n",
+    "error": "SETUP 400 Bad Request",
+    "lastChecked": "2026-09-01T20:58:22.005Z"
+  },
+  {
+    "ip": "152.245.53.166",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://152.245.53.166:554/",
+    "publicMethods": "OPTIONS, DESCRIBE, SETUP, TEARDOWN, GET_PARAMETER, SET_PARAMETER, PLAY, PAUSE",
+    "tracks": [],
+    "sdp": "",
+    "error": "RTSP SETUP timeout",
+    "lastChecked": "2026-09-01T20:58:31.607Z"
+  }
+]
