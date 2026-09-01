@@ -498,5 +498,39 @@
     "sdp": "v=0\r\no=StreamingServer 3331435948 1116907222000 IN IP4 192.168.1.8\r\ns=10\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=control:*\r\nm=video 0 RTP/AVP 96\r\na=control:trackID=0\r\na=rtpmap:96 H264/90000\r\na=fmtp:96 packetization-mode=1;profile-level-id=4D001F;sprop-parameter-sets=Z00AH5WoFAFuQA==,aO48gA==\r\na=framesize:96 1280-720\r\nm=audio 0 RTP/AVP 8\r\na=control:trackID=1\r\na=rtpmap:8 PCMA/8000/1\r\na=ptime:20\r\na=fmtp:8 packetization-mode=1\r\n",
     "error": "SETUP 400 Bad Request",
     "lastChecked": "2026-09-01T21:44:15.898Z"
+  },
+  {
+    "ip": "186.208.182.214",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://186.208.182.214:554/",
+    "publicMethods": "OPTIONS, DESCRIBE, SETUP, TEARDOWN, GET_PARAMETER, SET_PARAMETER, PLAY, PAUSE",
+    "tracks": [],
+    "sdp": "",
+    "error": "RTSP SETUP timeout",
+    "lastChecked": "2026-09-01T22:24:19.962Z"
+  },
+  {
+    "ip": "186.210.71.89",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://186.210.71.89:554/",
+    "publicMethods": "OPTIONS, DESCRIBE, SET_PARAMETER, SETUP, PLAY, PAUSE, TEARDOWN, GET_PARAMETER",
+    "contentType": "application/sdp",
+    "contentBase": "rtsp://186.210.71.89:554/",
+    "tracks": [
+      {
+        "control": "rtsp://186.210.71.89:554/trackID=0",
+        "codec": "H265",
+        "mediaType": "video"
+      },
+      {
+        "control": "rtsp://186.210.71.89:554/trackID=1",
+        "codec": "PCMU",
+        "mediaType": "audio"
+      }
+    ],
+    "sdp": "v=0\r\no=RTSP 17168358168198500468 17168358168198543417 IN IP4 192.168.100.242\r\ns=RTSP Server\r\nm=video 0 RTP/AVP 96\r\nc=IN IP4 0.0.0.0\r\na=rtpmap:96 H265/90000\r\na=fmtp:96 packetization-mode=1;profile-level-id=010101;sprop-pps=RAHA8vA8kA==;sprop-sps=QgEBAWAAAAMAsAAAAwAAAwA/oAUCAWlja5JMvTcBAQEAgA==;sprop-vps=QAEMAf//AWAAAAMAsAAAAwAAAwA/rAk=;sprop-sei=TgHlBPcwAACA;\r\na=Media_header:MEDIAINFO=494D4B48010100000400010000000000000000000000000000000000000000000000000000000000;\r\nb=AS:5000\r\na=control:trackID=0\r\nm=audio 0 RTP/AVP 0\r\nc=IN IP4 0.0.0.0\r\na=rtpmap:0 PCMU/8000/1\r\nb=AS:5000\r\na=control:trackID=1\r\n",
+    "lastChecked": "2026-09-01T22:38:01.404Z"
   }
 ]
