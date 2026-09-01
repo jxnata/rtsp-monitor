@@ -532,5 +532,130 @@
     ],
     "sdp": "v=0\r\no=RTSP 17168358168198500468 17168358168198543417 IN IP4 192.168.100.242\r\ns=RTSP Server\r\nm=video 0 RTP/AVP 96\r\nc=IN IP4 0.0.0.0\r\na=rtpmap:96 H265/90000\r\na=fmtp:96 packetization-mode=1;profile-level-id=010101;sprop-pps=RAHA8vA8kA==;sprop-sps=QgEBAWAAAAMAsAAAAwAAAwA/oAUCAWlja5JMvTcBAQEAgA==;sprop-vps=QAEMAf//AWAAAAMAsAAAAwAAAwA/rAk=;sprop-sei=TgHlBPcwAACA;\r\na=Media_header:MEDIAINFO=494D4B48010100000400010000000000000000000000000000000000000000000000000000000000;\r\nb=AS:5000\r\na=control:trackID=0\r\nm=audio 0 RTP/AVP 0\r\nc=IN IP4 0.0.0.0\r\na=rtpmap:0 PCMU/8000/1\r\nb=AS:5000\r\na=control:trackID=1\r\n",
     "lastChecked": "2026-09-01T22:38:01.404Z"
+  },
+  {
+    "ip": "186.210.198.27",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://186.210.198.27:554/h264/ch1/main/av_stream",
+    "publicMethods": "OPTIONS, DESCRIBE, SETUP, TEARDOWN, GET_PARAMETER, PLAY, PAUSE",
+    "contentType": "application/sdp",
+    "contentBase": "rtsp://186.210.198.27:554/h264/ch1/main/av_stream",
+    "tracks": [
+      {
+        "control": "rtsp://186.210.198.27:554/h264/ch1/main/av_stream/trackID=1",
+        "codec": "H264",
+        "mediaType": "video"
+      }
+    ],
+    "sdp": "v=0\r\no=- 38990265062388 38990265062388 IN IP4 192.168.100.150\r\ns=Media Presentation\r\ne=NONE\r\nb=AS:5050\r\nt=0 0\r\na=control:*\r\na=range:npt=0-\r\nm=video 0 RTP/AVP 96\r\nc=IN IP4 0.0.0.0\r\nb=AS:5000\r\na=recvonly\r\na=rtpmap:96 H264/90000 \r\na=control:trackID=1\r\na=fmtp:96 profile-level-id=64001f; packetization-mode=1; sprop-parameter-sets=Z2QAH62EAQwgCGEAQwgCGEAQwgCEO1AoAtyA,aO48sA==\r\na=Media_header:MEDIAINFO=494D4B48010200000400000100000000000000000000000000000000000000000000000000000000;\r\na=appversion:1.0\r\n",
+    "lastChecked": "2026-09-01T22:47:21.683Z"
+  },
+  {
+    "ip": "186.214.34.181",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://186.214.34.181:554/",
+    "publicMethods": "OPTIONS, DESCRIBE, SETUP, TEARDOWN, PLAY, PAUSE, GET_PARAMETER, SET_PARAMETER,USER_CMD_SET",
+    "contentType": "application/sdp",
+    "tracks": [
+      {
+        "control": "rtsp://186.214.34.181:554/track1",
+        "codec": "H265",
+        "mediaType": "video"
+      }
+    ],
+    "sdp": "v=0\r\no=- 1421069297525233 1 IN IP4 192.168.15.30\r\ns=H.265 Video, RtspServer_0.0.0.2\r\nt=0 0\r\na=tool:RtspServer_0.0.0.2\r\na=type:broadcast\r\na=control:*\r\na=range:npt=0-\r\nm=video 0 RTP/AVP 96\r\nc=IN IP4 0.0.0.0\r\nb=AS:500\r\na=rtpmap:96 H265/90000\r\na=fmtp:96 packetization-mode=1;profile-level-id=42001F;sprop-parameter-sets=Z0IAH5WoFAFuQA==,aM48gA==\r\na=control:track1\r\n",
+    "error": "SETUP 400 Bad Request",
+    "lastChecked": "2026-09-01T22:48:06.037Z"
+  },
+  {
+    "ip": "186.219.220.51",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://186.219.220.51:554/",
+    "publicMethods": "OPTIONS, DESCRIBE, SET_PARAMETER, SETUP, PLAY, PAUSE, TEARDOWN, GET_PARAMETER",
+    "contentType": "application/sdp",
+    "contentBase": "rtsp://186.219.220.51:554/",
+    "tracks": [
+      {
+        "control": "rtsp://186.219.220.51:554/trackID=0",
+        "codec": "H264",
+        "mediaType": "video"
+      },
+      {
+        "control": "rtsp://186.219.220.51:554/trackID=1",
+        "codec": "PCMU",
+        "mediaType": "audio"
+      }
+    ],
+    "sdp": "v=0\r\no=RTSP 17168175411451823009 17168175411451900318 IN IP4 192.168.100.150\r\ns=RTSP Server\r\nm=video 0 RTP/AVP 96\r\nc=IN IP4 0.0.0.0\r\na=rtpmap:96 H264/90000\r\na=fmtp:96 packetization-mode=1;profile-level-id=64001e;sprop-parameter-sets=Z2QAHq2EAQwgCGEAQwgCGEAQwgCEO1BYCTTcBAQECA==,aO48sA==\r\nb=AS:5000\r\na=control:trackID=0\r\nm=audio 0 RTP/AVP 0\r\nc=IN IP4 0.0.0.0\r\na=rtpmap:0 PCMU/8000/1\r\nb=AS:5000\r\na=control:trackID=1\r\n",
+    "lastChecked": "2026-09-01T22:48:51.197Z"
+  },
+  {
+    "ip": "186.220.69.42",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://186.220.69.42:554/",
+    "publicMethods": "OPTIONS, DESCRIBE, SETUP, TEARDOWN, PLAY, PAUSE, GET_PARAMETER, SET_PARAMETER,USER_CMD_SET",
+    "contentType": "application/sdp",
+    "tracks": [
+      {
+        "control": "rtsp://186.220.69.42:554/track1",
+        "codec": "H265",
+        "mediaType": "video"
+      }
+    ],
+    "sdp": "v=0\r\no=- 1421069297525233 1 IN IP4 192.168.0.3\r\ns=H.265 Video, RtspServer_0.0.0.2\r\nt=0 0\r\na=tool:RtspServer_0.0.0.2\r\na=type:broadcast\r\na=control:*\r\na=range:npt=0-\r\nm=video 0 RTP/AVP 96\r\nc=IN IP4 0.0.0.0\r\nb=AS:500\r\na=rtpmap:96 H265/90000\r\na=fmtp:96 packetization-mode=1;profile-level-id=42001F;sprop-parameter-sets=Z0IAH5WoFAFuQA==,aM48gA==\r\na=control:track1\r\n",
+    "error": "SETUP 400 Bad Request",
+    "lastChecked": "2026-09-01T22:49:28.228Z"
+  },
+  {
+    "ip": "186.222.193.41",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://186.222.193.41:554/",
+    "publicMethods": "OPTIONS, DESCRIBE, SET_PARAMETER, SETUP, PLAY, PAUSE, TEARDOWN, GET_PARAMETER",
+    "contentType": "application/sdp",
+    "contentBase": "rtsp://186.222.193.41:554/",
+    "tracks": [
+      {
+        "control": "rtsp://186.222.193.41:554/trackID=0",
+        "codec": "H265",
+        "mediaType": "video"
+      },
+      {
+        "control": "rtsp://186.222.193.41:554/trackID=1",
+        "codec": "PCMU",
+        "mediaType": "audio"
+      }
+    ],
+    "sdp": "v=0\r\no=RTSP 17168283957728899711 17168283957728951251 IN IP4 192.168.0.200\r\ns=RTSP Server\r\nm=video 0 RTP/AVP 96\r\nc=IN IP4 0.0.0.0\r\na=rtpmap:96 H265/90000\r\na=fmtp:96 packetization-mode=1;profile-level-id=010101;sprop-pps=RAHA8vA8kA==;sprop-sps=QgEBAWAAAAMAsAAAAwAAAwBaoAWCAeFja5JMvTcBAQEAgA==;sprop-vps=QAEMAf//AWAAAAMAsAAAAwAAAwBarAk=;sprop-sei=TgHlBGhoAACA;\r\na=Media_header:MEDIAINFO=494D4B48010100000400010000000000000000000000000000000000000000000000000000000000;\r\nb=AS:5000\r\na=control:trackID=0\r\nm=audio 0 RTP/AVP 0\r\nc=IN IP4 0.0.0.0\r\na=rtpmap:0 PCMU/8000/1\r\nb=AS:5000\r\na=control:trackID=1\r\n",
+    "lastChecked": "2026-09-01T22:50:04.452Z"
+  },
+  {
+    "ip": "186.225.196.82",
+    "port": 554,
+    "status": "open",
+    "rtspUrl": "rtsp://186.225.196.82:554/",
+    "publicMethods": "OPTIONS,DESCRIBE,SETUP,TEARDOWN,PLAY,SET_PARAMETER,GET_PARAMETER",
+    "contentType": "application/sdp",
+    "contentBase": "rtsp://186.225.196.82:554/",
+    "tracks": [
+      {
+        "control": "rtsp://186.225.196.82:554/trackID=0",
+        "codec": "H264",
+        "resolution": "1280x720",
+        "mediaType": "video"
+      },
+      {
+        "control": "rtsp://186.225.196.82:554/trackID=1",
+        "codec": "PCMA",
+        "mediaType": "audio"
+      }
+    ],
+    "sdp": "v=0\r\no=StreamingServer 3331435948 1116907222000 IN IP4 192.168.10.102\r\ns=10\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=control:*\r\nm=video 0 RTP/AVP 96\r\na=control:trackID=0\r\na=rtpmap:96 H264/90000\r\na=fmtp:96 packetization-mode=1;profile-level-id=4D001F;sprop-parameter-sets=Z00AH5WoFAFuQA==,aO48gA==\r\na=framesize:96 1280-720\r\nm=audio 0 RTP/AVP 8\r\na=control:trackID=1\r\na=rtpmap:8 PCMA/8000/1\r\na=ptime:20\r\na=fmtp:8 packetization-mode=1\r\n",
+    "error": "SETUP 400 Bad Request",
+    "lastChecked": "2026-09-01T22:51:05.194Z"
   }
 ]
